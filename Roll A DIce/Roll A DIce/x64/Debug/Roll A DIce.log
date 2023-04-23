@@ -1,0 +1,3 @@
+﻿  Roll A DIce.cpp
+C:\Users\jasji\OneDrive\Documents\C++ Prog\Roll A DIce\Roll A DIce\Roll A DIce.cpp(12,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Roll A DIce.vcxproj -> C:\Users\jasji\OneDrive\Documents\C++ Prog\Roll A DIce\x64\Debug\Roll A DIce.exe
