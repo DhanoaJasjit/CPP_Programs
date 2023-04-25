@@ -2,12 +2,37 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+	int i, j, r, c;
+	cout << "enter no. of rows : ";
+	cin >> r;
+	cout << "enter no. of colums : ";
+	cin >> c;
+	for (i = 1; i <= r; i++	) {
+		
+		
+		for (j = 1; j <= r; j++) {
+			if (j <= r - i) {
+				cout << " ";
+				}
+			else {
+				cout << "*";	
+			}
+	
 
+			
+
+		}
+
+		cout << endl;
+	}
+	return 0;
+
+
+
+}
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
